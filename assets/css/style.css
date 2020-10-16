@@ -1,0 +1,117 @@
+/* impostazioni generali (assegnate con frequenza) */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+hr{
+  border-style: inset;
+}
+
+/* colori principali */
+.cl-o{
+  background-color: orange;
+}
+.cl-b{
+  color: black;
+}
+/* /colori principali/ */
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.button{
+  background-color: orange;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.button-v{
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 1px solid orange;
+}
+.button-g{
+  color: green;
+  background-color: lightgray;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+/* float */
+.fl{
+  float: left;
+}
+/* /float/ */
+/* clearfix */
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* /clearfix/ */
+body{
+  background-color: green;
+}
+header{
+  height: 1000px;
+}
+/* /impostazioni generali (assegnate con frequenza)/ */
+
+
+/* header */
+/* nav */
+.navbar-top{
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 80px;
+}
+.navbar-lower{
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 80px;
+}
+/* /nav/ */
+
+/* banner */
+.bnr{
+  height: 600px;
+  background-image: url(../img/jumbotron.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.bnr-bkgrd{
+  position: relative;
+  height: 300px;
+}
+.bnr-cnt{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.bnr-cnt h1{
+  margin-top: 50px;
+  color: black;
+  margin-bottom: 40px;
+}
+.bnr-cnt a{
+  margin: 10px;
+  display: inline-block;
+}
+.bnr-cnt a:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/* /banner/ */
+/* /header/ */
