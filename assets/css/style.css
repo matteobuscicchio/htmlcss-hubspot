@@ -34,11 +34,17 @@ hr{
   text-transform: uppercase;
   border-radius: 10px;
 }
+.button:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
 .button-v{
   padding: 10px;
   text-transform: uppercase;
   border-radius: 10px;
   border: 1px solid orange;
+}
+.button-v:hover{
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .button-g{
   color: green;
@@ -77,6 +83,8 @@ header{
   line-height: 80px;
 }
 .navbar-lower{
+  border-top-style: solid;
+  border-color: blue;
   font-size: 10px;
   text-transform: uppercase;
   line-height: 80px;
@@ -85,32 +93,30 @@ header{
 
 /* banner */
 .bnr{
-  height: 900px;
+  height: 760px;
   background-image: url(../img/jumbotron.png);
-  background-size: 100%;
   background-repeat: no-repeat;
-  position: relative;
+  background-size: cover;
+  max-height: 800px;
 }
 .bnr-cnt{
-  max-width: 600px;
-  position: absolute;
-  top: 20%;
-  left: 20%;
-  transform: translate(-20%, -50%);
+  text-align: left;
+}
+.bnr-cnt p{
+  font-size: 110%;
+  line-height: 2;
 }
 .bnr-cnt h1{
   font-size: 3em;
+  line-height: 1;
   margin-top: 80px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   color: black;
 }
 .bnr-cnt a{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   display: inline-block;
-}
-.bnr-cnt a:hover{
-  background-color: rgba(0, 0, 0, 0.1);
 }
 /* /banner/ */
 /* /header/ */
