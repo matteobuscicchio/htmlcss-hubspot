@@ -88,12 +88,6 @@ hr{
   clear: both;
 }
 /* /clearfix/ */
-body{
-  background-color: white;
-}
-main{
-  height: 1900px;
-}
 /* /impostazioni generali (assegnate con frequenza)/ */
 
 
@@ -118,6 +112,7 @@ main{
 #sel-lan{
   background-color: #f2f2f2;
 }
+
 .navbar-lower{
   padding-top: 20px;
   background-color: white;
@@ -136,6 +131,7 @@ main{
   background-size: cover;
   max-height: 800px;
 }
+
 .bnr-cnt{
   text-align: left;
 }
@@ -165,17 +161,41 @@ main{
   border-bottom-width: medium;
   border-top-style: solid;
   border-top-width: medium;
-  background-color: #00b3b3;
+  background-color: #0abab5;
 }
 /* /divisore/ */
 /* /header/ */
+
+
+/* main */
+/* main top */
+.services{
+  height: 300px;
+  background-color: lightgray;
+}
+/* /main top/ */
+
+/* main mid */
+.community{
+  height: 300px;
+  background-color: #0abab5;
+}
+/* /main mid/ */
+
+/* main lower */
+.testimonial{
+  height: 300px;
+  background-color: white;
+}
+/* /main lower/ */
+/* /main/ */
 
 
 /* footer */
 footer{
   padding: 10px;
   color: white;
-  background-color: #004d4d;
+  background-color: #256d7b;
 }
 
 .ftr-top{
@@ -200,18 +220,19 @@ footer{
   margin-bottom: 40px;
 }
 
-.ftr-lower a{
-  padding: 20px;
-}
 .lingue{
   text-align: center;
   position: relative;
   bottom: 20px;
 }
+.ftr-lower a{
+  padding: 20px;
+}
 
 .ftr-logo{
   margin-top: 20px;
 }
+
 .legal-stuff{
   position: relative;
   top: 20px;
