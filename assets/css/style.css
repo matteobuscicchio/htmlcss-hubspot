@@ -28,6 +28,10 @@ hr{
 }
 /* /colori principali/ */
 
+.text-align{
+  text-align: center;
+}
+
 .container{
   width: 80%;
   margin: auto;
@@ -155,7 +159,7 @@ hr{
 
 /* divisore */
 .divisore{
-  height: 50px;
+  height: 80px;
   border-color: #4d4d4d;
   border-bottom-style: solid;
   border-bottom-width: medium;
@@ -170,8 +174,41 @@ hr{
 /* main */
 /* main top */
 .services{
-  height: 2000px;
+  height:;
   background-color: #f4f4f4;
+}
+
+.service-top{
+  padding-top: 50px;
+  text-align: center;
+}
+.service-top h2{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.service-top p{
+  line-height: 1.8;
+  padding-bottom: 50px;
+}
+
+
+.infobox{
+  text-align: left;
+  width: 100%;
+  height: 300px;
+}
+.infobox-l{
+  width: 20%;
+}
+.infobox-r{
+  width: 80%
+}
+
+
+
+.white-background{
+  background-color: white;
+  border-radius: 5px;
 }
 /* /main top/ */
 
@@ -203,9 +240,6 @@ hr{
 }
 .logo-testimonial-2{
   width: 70%;
-}
-.text-align{
-  text-align: center;
 }
 
 .logo-testimonial-lower{
