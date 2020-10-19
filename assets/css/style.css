@@ -184,9 +184,7 @@ hr{
 
 /* main lower */
 .testimonial{
-  height: 2000px;
   background-color: white;
-  text-align: center;
 }
 
 .logo-testimonial{
@@ -200,10 +198,14 @@ hr{
   line-height: 1.5;
 }
 .logo-testimonial-1{
+  text-align: center;
   width: 30%;
 }
 .logo-testimonial-2{
   width: 70%;
+}
+.text-align{
+  text-align: center;
 }
 
 .logo-testimonial-lower{
@@ -217,19 +219,26 @@ hr{
 .logo-testimonial-lower p{
   line-height: 1.5;
   text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .logo-testimonial-1-lower{
   width: 50%;
 }
 .logo-testimonial-2-lower{
-  height: 50%;
+  text-align: center;
   width: 50%;
+}
+.logo-testimonial-2-lower img{
+  height: 400px;
 }
 .button-testimonial{
   background-color: orange;
-  padding: 20px 30px;
+  padding: 20px;
   text-transform: uppercase;
   border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .button-testimonial:hover{
   background-color: rgba(0, 0, 0, 0.1);
