@@ -6,7 +6,7 @@
 }
 
 select{
-  background-color: green;
+  background-color: white;
   border: 0 none transparent;
 }
 
@@ -42,13 +42,26 @@ hr{
 .button:hover{
   background-color: rgba(0, 0, 0, 0.1);
 }
-.button-v{
+.button-top{
   padding: 10px;
   text-transform: uppercase;
   border-radius: 10px;
+  background-color: white;
+  color: orange;
   border: 1px solid orange;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-.button-v:hover{
+.button-top:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.button-top-2{
+  background-color: orange;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.button-top-2:hover{
   background-color: rgba(0, 0, 0, 0.1);
 }
 .button-g{
@@ -77,9 +90,6 @@ hr{
 body{
   background-color: green;
 }
-header{
-  height: 1000px;
-}
 /* /impostazioni generali (assegnate con frequenza)/ */
 
 
@@ -92,10 +102,21 @@ header{
 }
 .navbar-top{
   border-bottom-style: solid;
-  border-color: blue;
+  border-color: #4d4d4d;
+  border-bottom-width: thin;
+  background-color: #f2f2f2;
+}
+.m-l-padding{
+  border-left: 1px solid gray;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+#sel-lan{
+  background-color: #f2f2f2;
 }
 .navbar-lower{
   padding-top: 20px;
+  background-color: white;
 }
 #lower-bar{
   position: relative;
@@ -131,4 +152,16 @@ header{
   display: inline-block;
 }
 /* /banner/ */
+
+/* divisore */
+.divisore{
+  height: 50px;
+  border-color: #4d4d4d;
+  border-bottom-style: solid;
+  border-bottom-width: medium;
+  border-top-style: solid;
+  border-top-width: medium;
+  background-color: #00b3b3;
+}
+/* /divisore/ */
 /* /header/ */
