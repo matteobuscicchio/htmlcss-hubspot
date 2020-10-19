@@ -65,9 +65,10 @@ hr{
   background-color: rgba(0, 0, 0, 0.1);
 }
 .button-g{
+  text-align: center;
   color: green;
   background-color: lightgray;
-  padding: 10px;
+  padding: 5px;
   text-transform: uppercase;
   border-radius: 10px;
 }
@@ -89,6 +90,9 @@ hr{
 /* /clearfix/ */
 body{
   background-color: green;
+}
+main{
+  height: 800px;
 }
 /* /impostazioni generali (assegnate con frequenza)/ */
 
@@ -165,3 +169,44 @@ body{
 }
 /* /divisore/ */
 /* /header/ */
+
+
+/* footer */
+footer{
+  height: 500px;
+  color: white;
+  background-color: #004d4d;
+}
+
+.ftr-top{
+  padding-top: 50px;
+}
+
+.link-utili > h3{
+  padding-right: 150px;
+  padding-bottom: 20px;
+}
+.link-utili > a{
+  line-height: 35px;
+  display: block;
+}
+
+.ftr-lower{
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.ftr-lower a{
+  padding: 20px;
+}
+.lingue{
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+}
+
+.legal-stuff{
+  position: relative;
+  top: 20px;
+}
+/* /footer/ */
