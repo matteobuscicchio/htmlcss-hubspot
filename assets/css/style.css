@@ -27,6 +27,11 @@ hr{
 }
 /* /colori principali/ */
 
+.white-background{
+  background-color: white;
+  border-radius: 5px;
+}
+
 .text-align{
   text-align: center;
 }
@@ -173,7 +178,6 @@ hr{
 /* main */
 /* main top */
 .services{
-  height:3000px;
   background-color: #f4f4f4;
 }
 
@@ -191,7 +195,9 @@ hr{
 }
 
 
+.infobox-mid{
 
+}
 .infobox-l{
   position: relative;
   padding: 100px;
@@ -204,11 +210,10 @@ hr{
   display: inline-block;
 }
 
-
-.infobox-line{
+.infobox-line-mid{
   display: inline;
 }
-.line{
+.line-mid{
   position: relative;
   bottom: 6px;
   padding-left: 50px;
@@ -230,11 +235,47 @@ hr{
 }
 
 
-.white-background{
-  background-color: white;
-  border-radius: 5px;
+.infobox-lower-c{
+
+}
+.infobox-lower{
+  width: 410px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#b{
+  position: relative;
+  right: 0px;
+}
+#c{
+  position: relative;
+  right: 80px;
+}
+.infobox-lower h2{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.infobox-lower p{
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.infobox-lower img{
+  height: 150px;
+}
+.info-pad{
+  padding: 40px;
+}
+.smal-box{
+  box-sizing: border-box;
+}
+.infobox-radiio input, label{
+  padding-bottom: 40px;
+}
+.infobox-radio hr{
 }
 /* /main top/ */
+
+
 
 /* main mid */
 .community{
@@ -242,6 +283,8 @@ hr{
   background-color: #0abab5;
 }
 /* /main mid/ */
+
+
 
 /* main lower */
 .testimonial{
