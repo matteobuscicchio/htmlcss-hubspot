@@ -89,7 +89,7 @@ hr{
 }
 /* /clearfix/ */
 body{
-  background-color: green;
+  background-color: white;
 }
 main{
   height: 800px;
@@ -173,7 +173,7 @@ main{
 
 /* footer */
 footer{
-  height: 500px;
+  padding: 10px;
   color: white;
   background-color: #004d4d;
 }
@@ -187,8 +187,12 @@ footer{
   padding-bottom: 20px;
 }
 .link-utili > a{
-  line-height: 35px;
+  line-height: 40px;
   display: block;
+}
+.link-utili .button-g{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .ftr-lower{
@@ -205,6 +209,9 @@ footer{
   bottom: 20px;
 }
 
+.ftr-logo{
+  margin-top: 20px;
+}
 .legal-stuff{
   position: relative;
   top: 20px;
