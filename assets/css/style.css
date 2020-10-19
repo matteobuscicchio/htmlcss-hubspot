@@ -279,8 +279,23 @@ hr{
 
 /* main mid */
 .community{
-  height: 800px;
+  height: 1000px;
+  color: white;
   background-color: #0abab5;
+}
+
+.community-txt h2{
+  font-size: 2em;
+  padding-top: 50px;
+}
+.community-txt p{
+  line-height: 1.5;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.community-infobox{
+
 }
 /* /main mid/ */
 
