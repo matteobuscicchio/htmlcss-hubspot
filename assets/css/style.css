@@ -1,6 +1,6 @@
 /* impostazioni generali (assegnate con frequenza) */
 *{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -242,8 +242,6 @@ hr{
   width: 410px;
   margin-top: 50px;
   margin-bottom: 50px;
-  /* display: inline;
-  width: 33.33%; */
 }
 #b{
   position: relative;
@@ -281,9 +279,12 @@ hr{
 
 /* main mid */
 .community{
-  height: 1000px;
   color: white;
   background-color: #0abab5;
+}
+
+.community-data-box{
+  width: 100vw;
 }
 
 .community-txt h2{
@@ -297,7 +298,19 @@ hr{
 }
 
 .community-infobox{
-
+  width: 20%;
+  display: inline;
+  border: 1px solid white;
+}
+.community-infobox img{
+  margin-top: 10px;
+}
+.community-infobox h2{
+  font-size: 2em;
+  padding: 10px;
+}
+.community-infobox h6{
+  margin-bottom: 10px;
 }
 /* /main mid/ */
 
